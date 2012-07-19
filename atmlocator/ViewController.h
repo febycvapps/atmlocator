@@ -13,13 +13,6 @@
 @interface ViewController : UIViewController
 {
     nsxmlparser *xmlParser;
-    IBOutlet UISlider *slider;
-    IBOutlet UILabel *slidervalue;
 }
-
-@property (nonatomic,retain)IBOutlet UILabel *slidervalue;
-
--(IBAction) sliderlabel:(id)sender;
-
 
 @end

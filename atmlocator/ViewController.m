@@ -14,15 +14,6 @@
 
 @implementation ViewController
 
-@synthesize slidervalue;
-
-
--(IBAction) sliderlabel:(id)sender
-{
-    //self.slidervalue.text = [[NSString alloc]initWithFormat:@"%d", (int)slider.value ] ;
-    slidervalue.text = [[NSString alloc] initWithFormat:@"%1.2f",slider.value];
-}
-
 - (void)viewDidLoad
 {
     xmlParser = [[nsxmlparser alloc] loadXMLByURL:@"https://maps.googleapis.com/maps/api/place/search/xml?location=8.487464551632215,76.95282608270645&radius=15000&types=atm&sensor=false&key=AIzaSyBfTm8JWtX_lKBH_0A4SBwU1afJwLOpfPM"];
