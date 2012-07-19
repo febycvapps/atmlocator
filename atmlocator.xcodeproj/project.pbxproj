@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8745BE5415B69EF6003062FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8745BE5315B69EF6003062FD /* UIKit.framework */; };
+		8745BE5615B69EF6003062FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8745BE5515B69EF6003062FD /* Foundation.framework */; };
+		8745BE5815B69EF6003062FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8745BE5715B69EF6003062FD /* CoreGraphics.framework */; };
+		8745BE5E15B69EF6003062FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8745BE5C15B69EF6003062FD /* InfoPlist.strings */; };
+		8745BE6015B69EF6003062FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE5F15B69EF6003062FD /* main.m */; };
+		8745BE6415B69EF6003062FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE6315B69EF6003062FD /* AppDelegate.m */; };
+		8745BE6715B69EF6003062FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE6615B69EF6003062FD /* ViewController.m */; };
+		8745BE6A15B69EF6003062FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8745BE6815B69EF6003062FD /* ViewController.xib */; };
+		8745BE7215B6A0A6003062FD /* pagetwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7115B6A0A6003062FD /* pagetwo.m */; };
+		8745BE7515B6A0CB003062FD /* nsxmlparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7415B6A0CB003062FD /* nsxmlparser.m */; };
+		87867A8215B7BEBC00E7828F /* atm-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8115B7BEBC00E7828F /* atm-icon.png */; };
+		87867A8915B7C22900E7828F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8815B7C22900E7828F /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8745BE4F15B69EF6003062FD /* atmlocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atmlocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8745BE5315B69EF6003062FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8745BE5515B69EF6003062FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8745BE5715B69EF6003062FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8745BE5B15B69EF6003062FD /* atmlocator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "atmlocator-Info.plist"; sourceTree = "<group>"; };
+		8745BE5D15B69EF6003062FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8745BE5F15B69EF6003062FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8745BE6115B69EF6003062FD /* atmlocator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "atmlocator-Prefix.pch"; sourceTree = "<group>"; };
+		8745BE6215B69EF6003062FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8745BE6315B69EF6003062FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8745BE6515B69EF6003062FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8745BE6615B69EF6003062FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8745BE6915B69EF6003062FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8745BE7015B6A0A6003062FD /* pagetwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pagetwo.h; sourceTree = "<group>"; };
+		8745BE7115B6A0A6003062FD /* pagetwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pagetwo.m; sourceTree = "<group>"; };
+		8745BE7315B6A0CB003062FD /* nsxmlparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsxmlparser.h; sourceTree = "<group>"; };
+		8745BE7415B6A0CB003062FD /* nsxmlparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nsxmlparser.m; sourceTree = "<group>"; };
+		87867A8115B7BEBC00E7828F /* atm-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm-icon.png"; path = "../atm-icon.png"; sourceTree = "<group>"; };
+		87867A8815B7C22900E7828F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8745BE4C15B69EF6003062FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8745BE5415B69EF6003062FD /* UIKit.framework in Frameworks */,
+				8745BE5615B69EF6003062FD /* Foundation.framework in Frameworks */,
+				8745BE5815B69EF6003062FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8745BE4415B69EF6003062FD = {
+			isa = PBXGroup;
+			children = (
+				8745BE5915B69EF6003062FD /* atmlocator */,
+				8745BE5215B69EF6003062FD /* Frameworks */,
+				8745BE5015B69EF6003062FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8745BE5015B69EF6003062FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8745BE4F15B69EF6003062FD /* atmlocator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8745BE5215B69EF6003062FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8745BE5315B69EF6003062FD /* UIKit.framework */,
+				8745BE5515B69EF6003062FD /* Foundation.framework */,
+				8745BE5715B69EF6003062FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8745BE5915B69EF6003062FD /* atmlocator */ = {
+			isa = PBXGroup;
+			children = (
+				8745BE6215B69EF6003062FD /* AppDelegate.h */,
+				8745BE6315B69EF6003062FD /* AppDelegate.m */,
+				8745BE6515B69EF6003062FD /* ViewController.h */,
+				8745BE6615B69EF6003062FD /* ViewController.m */,
+				8745BE6815B69EF6003062FD /* ViewController.xib */,
+				8745BE5A15B69EF6003062FD /* Supporting Files */,
+			);
+			path = atmlocator;
+			sourceTree = "<group>";
+		};
+		8745BE5A15B69EF6003062FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8745BE7015B6A0A6003062FD /* pagetwo.h */,
+				8745BE7115B6A0A6003062FD /* pagetwo.m */,
+				8745BE5B15B69EF6003062FD /* atmlocator-Info.plist */,
+				8745BE7315B6A0CB003062FD /* nsxmlparser.h */,
+				8745BE7415B6A0CB003062FD /* nsxmlparser.m */,
+				8745BE5C15B69EF6003062FD /* InfoPlist.strings */,
+				87867A8115B7BEBC00E7828F /* atm-icon.png */,
+				87867A8815B7C22900E7828F /* Default.png */,
+				8745BE5F15B69EF6003062FD /* main.m */,
+				8745BE6115B69EF6003062FD /* atmlocator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8745BE4E15B69EF6003062FD /* atmlocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8745BE6D15B69EF6003062FD /* Build configuration list for PBXNativeTarget "atmlocator" */;
+			buildPhases = (
+				8745BE4B15B69EF6003062FD /* Sources */,
+				8745BE4C15B69EF6003062FD /* Frameworks */,
+				8745BE4D15B69EF6003062FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atmlocator;
+			productName = atmlocator;
+			productReference = 8745BE4F15B69EF6003062FD /* atmlocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8745BE4615B69EF6003062FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = febycv;
+			};
+			buildConfigurationList = 8745BE4915B69EF6003062FD /* Build configuration list for PBXProject "atmlocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8745BE4415B69EF6003062FD;
+			productRefGroup = 8745BE5015B69EF6003062FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8745BE4E15B69EF6003062FD /* atmlocator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8745BE4D15B69EF6003062FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8745BE5E15B69EF6003062FD /* InfoPlist.strings in Resources */,
+				8745BE6A15B69EF6003062FD /* ViewController.xib in Resources */,
+				87867A8215B7BEBC00E7828F /* atm-icon.png in Resources */,
+				87867A8915B7C22900E7828F /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8745BE4B15B69EF6003062FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8745BE6015B69EF6003062FD /* main.m in Sources */,
+				8745BE6415B69EF6003062FD /* AppDelegate.m in Sources */,
+				8745BE6715B69EF6003062FD /* ViewController.m in Sources */,
+				8745BE7215B6A0A6003062FD /* pagetwo.m in Sources */,
+				8745BE7515B6A0CB003062FD /* nsxmlparser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8745BE5C15B69EF6003062FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8745BE5D15B69EF6003062FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8745BE6815B69EF6003062FD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8745BE6915B69EF6003062FD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8745BE6B15B69EF6003062FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8745BE6C15B69EF6003062FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8745BE6E15B69EF6003062FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atmlocator/atmlocator-Prefix.pch";
+				INFOPLIST_FILE = "atmlocator/atmlocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8745BE6F15B69EF6003062FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "atmlocator/atmlocator-Prefix.pch";
+				INFOPLIST_FILE = "atmlocator/atmlocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8745BE4915B69EF6003062FD /* Build configuration list for PBXProject "atmlocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8745BE6B15B69EF6003062FD /* Debug */,
+				8745BE6C15B69EF6003062FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8745BE6D15B69EF6003062FD /* Build configuration list for PBXNativeTarget "atmlocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8745BE6E15B69EF6003062FD /* Debug */,
+				8745BE6F15B69EF6003062FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8745BE4615B69EF6003062FD /* Project object */;
+}
