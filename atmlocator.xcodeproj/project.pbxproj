@@ -17,8 +17,8 @@
 		8745BE6A15B69EF6003062FD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8745BE6815B69EF6003062FD /* ViewController.xib */; };
 		8745BE7215B6A0A6003062FD /* pagetwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7115B6A0A6003062FD /* pagetwo.m */; };
 		8745BE7515B6A0CB003062FD /* nsxmlparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7415B6A0CB003062FD /* nsxmlparser.m */; };
+		87467E5515B7CD3900C59E6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8815B7C22900E7828F /* Default.png */; };
 		87867A8215B7BEBC00E7828F /* atm-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8115B7BEBC00E7828F /* atm-icon.png */; };
-		87867A8915B7C22900E7828F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8815B7C22900E7828F /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,7 +168,7 @@
 				8745BE5E15B69EF6003062FD /* InfoPlist.strings in Resources */,
 				8745BE6A15B69EF6003062FD /* ViewController.xib in Resources */,
 				87867A8215B7BEBC00E7828F /* atm-icon.png in Resources */,
-				87867A8915B7C22900E7828F /* Default.png in Resources */,
+				87467E5515B7CD3900C59E6E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

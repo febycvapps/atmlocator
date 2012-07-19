@@ -30,6 +30,7 @@
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
     self.navigation=[[UINavigationController alloc]initWithRootViewController:self.viewController];
     self.window.rootViewController = self.navigation;
+    self.navigation.navigationBar.barStyle = UIBarStyleBlack;
     [self.window makeKeyAndVisible];
     return YES;
 }
