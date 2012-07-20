@@ -18,6 +18,8 @@
 		8745BE7215B6A0A6003062FD /* pagetwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7115B6A0A6003062FD /* pagetwo.m */; };
 		8745BE7515B6A0CB003062FD /* nsxmlparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8745BE7415B6A0CB003062FD /* nsxmlparser.m */; };
 		87467E5515B7CD3900C59E6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8815B7C22900E7828F /* Default.png */; };
+		8784FB6C15B95FCF005B3B8C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8784FB6B15B95FCF005B3B8C /* Reachability.m */; };
+		8784FB6F15B96093005B3B8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784FB6E15B96093005B3B8C /* SystemConfiguration.framework */; };
 		87867A8215B7BEBC00E7828F /* atm-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87867A8115B7BEBC00E7828F /* atm-icon.png */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,9 @@
 		8745BE7115B6A0A6003062FD /* pagetwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pagetwo.m; sourceTree = "<group>"; };
 		8745BE7315B6A0CB003062FD /* nsxmlparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsxmlparser.h; sourceTree = "<group>"; };
 		8745BE7415B6A0CB003062FD /* nsxmlparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nsxmlparser.m; sourceTree = "<group>"; };
+		8784FB6A15B95FCF005B3B8C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Downloads/Reachability/Classes/Reachability.h; sourceTree = "<group>"; };
+		8784FB6B15B95FCF005B3B8C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../Downloads/Reachability/Classes/Reachability.m; sourceTree = "<group>"; };
+		8784FB6E15B96093005B3B8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		87867A8115B7BEBC00E7828F /* atm-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "atm-icon.png"; path = "../atm-icon.png"; sourceTree = "<group>"; };
 		87867A8815B7C22900E7828F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8784FB6F15B96093005B3B8C /* SystemConfiguration.framework in Frameworks */,
 				8745BE5415B69EF6003062FD /* UIKit.framework in Frameworks */,
 				8745BE5615B69EF6003062FD /* Foundation.framework in Frameworks */,
 				8745BE5815B69EF6003062FD /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +83,7 @@
 		8745BE5215B69EF6003062FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8784FB6E15B96093005B3B8C /* SystemConfiguration.framework */,
 				8745BE5315B69EF6003062FD /* UIKit.framework */,
 				8745BE5515B69EF6003062FD /* Foundation.framework */,
 				8745BE5715B69EF6003062FD /* CoreGraphics.framework */,
@@ -89,6 +96,8 @@
 			children = (
 				8745BE6215B69EF6003062FD /* AppDelegate.h */,
 				8745BE6315B69EF6003062FD /* AppDelegate.m */,
+				8784FB6A15B95FCF005B3B8C /* Reachability.h */,
+				8784FB6B15B95FCF005B3B8C /* Reachability.m */,
 				8745BE6515B69EF6003062FD /* ViewController.h */,
 				8745BE6615B69EF6003062FD /* ViewController.m */,
 				8745BE6815B69EF6003062FD /* ViewController.xib */,
@@ -184,6 +193,7 @@
 				8745BE6715B69EF6003062FD /* ViewController.m in Sources */,
 				8745BE7215B6A0A6003062FD /* pagetwo.m in Sources */,
 				8745BE7515B6A0CB003062FD /* nsxmlparser.m in Sources */,
+				8784FB6C15B95FCF005B3B8C /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

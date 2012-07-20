@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "pagetwo.h"
 #import "nsxmlparser.h"
+#import "Reachability.h"
 
 @interface ViewController : UIViewController
 {
     nsxmlparser *xmlParser;
 }
+
+-(NSString *)stringFromStatus:(NetworkStatus) status;
 
 @end
